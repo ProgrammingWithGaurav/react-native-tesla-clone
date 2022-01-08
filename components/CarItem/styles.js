@@ -13,6 +13,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
+        marginBottom: 10
     },
     headerTitle: {
         color: 'white',
@@ -29,6 +30,29 @@ const styles = StyleSheet.create({
         height: '100%',
         resizeMode: 'cover',
         position: 'absolute',
+    },
+    batterySection: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    batteryImage: {
+        height: 26,
+        width: 70,
+        marginRight: 12
+    },
+    batteryText: {
+        color: 'white',
+        fontSize: 35,
+        fontWeight: 'bold',        
+    },
+    status: {
+        alignItems: 'center',
+    },
+    statusText: {
+        fontSize: 20,
+        color: 'white',
+        fontWeight: 'bold',
     }
 })
 
